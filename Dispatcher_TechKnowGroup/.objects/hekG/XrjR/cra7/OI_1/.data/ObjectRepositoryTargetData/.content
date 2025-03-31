@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1GmwIOT63UuicNeU4IRgAQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="verasuite.com/dashboard" CVScreenId="336b712a-b949-4196-abdf-5d79d2900c6b" CvTextArea="73, 447, 128, 17" CvTextArgument="Manage Employees" CvType="Text" DesignTimeRectangle="24, 435, 232, 40" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='CN_Platform_Employee_Management_Manage_Employees_anchor' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='CN_Platform_Employee_Management_Manage_Employees_anchor' tag='A' type='' class='ng-star-inserted' aaname='' /&gt;" Guid="da5f0445-2e66-44f0-99d4-5fd6713079ae" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="336b712a-b949-4196-abdf-5d79d2900c6b" CvTextArea="73, 447, 128, 17" CvTextArgument="Manage Employees" CvType="Text" DesignTimeRectangle="73, 447, 128, 17" ElementType="Text" Guid="f3bb7137-0260-4295-abb3-33b23ae38a0a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d3418f64e79a8a79612ee94f49809a97.png" xmlns="">0LriPzmk0Zkm9ms7XI8pImQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

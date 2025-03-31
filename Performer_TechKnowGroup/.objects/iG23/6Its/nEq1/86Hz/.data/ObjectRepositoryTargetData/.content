@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XEgYqD6EAUCkgDlEbRNtag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="logon.mykpa.com/identity/login" CVScreenId="f1a793fb-a653-4696-8a14-5dcb8331ea8d" CvTextArea="549, 380, 267, 22" CvTextArgument="Welcome. Please Sign In." CvType="Text" DesignTimeRectangle="529, 375, 310, 32" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H5' /&gt;" Guid="7dccfbaa-e59c-4d6f-90a5-d7ee56113470" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Online Portal' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="543, 270, 281, 66" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="65df7cf3-e743-41cd-84ea-21c8f8e191b5" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7fdebbce77aabe66db9ce2c0caa8dc86.png" xmlns="">0odyHbIgfnkWl6cEQVoLyLw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

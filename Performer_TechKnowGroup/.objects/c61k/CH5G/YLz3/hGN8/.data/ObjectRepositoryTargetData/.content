@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_wWcJPGpYUSMR1fNKcJuaw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="kpahrm.com/Person/Index/10662580" CVScreenId="373a09b5-0423-448d-b701-96e1e5cd52c8" CvElementArea="328, 466, 156, 82" CvType="Button" DesignTimeRectangle="329, 468, 155, 78" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='policyTab' tag='A' type='' class='' aaname='Policies / Documents' check:innerText='Policies / Documents' /&gt;" Guid="aac8a11c-fe81-4169-9609-e6027c72a830" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="373a09b5-0423-448d-b701-96e1e5cd52c8" CvTextArea="344, 427, 55, 16" CvTextArgument="Training" CvType="Text" DesignTimeRectangle="329, 403, 155, 63" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='trainingTab' tag='A' type='' class='' aaname='Training' check:innerText='Training' /&gt;" Guid="44318025-f3d6-4f26-a836-39335afa9cfb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d36cf687a99dee7a29b9ee86a490cb0e.png" xmlns="">0VTcGqJ05y0CpCF-Q8lYlqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

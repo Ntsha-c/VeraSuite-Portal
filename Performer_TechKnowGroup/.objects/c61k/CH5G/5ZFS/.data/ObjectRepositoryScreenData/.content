@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="pShaYdM6YkeJ3Z3q0NgH5w" Reference="7_4FWEJ9i06MoqUPbuk8kw/5ZFS8nIatkOiArrCWxwfMw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="gdYZ5hDBGk6qaYEdhl5S8w" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHOSURBVDhPpZNbKMNRHMc9EC+yB6UUDx4oHuVl5U1evShlQ3M3tFiG5sHKpTTFMpeVZZJrrnPLDJv7HzPmfivKvEwU71/nnBCdPyUP3zq/zu/7+f3O6ffz85crpP7ynAsi/FHEo5ASwM/mwm4LNP3DonfvuqAAsQtmHtzYRv24FZW/QEQBRWYLlo5OoB0aZbHJvoLKgREuj4oDKM29MMzbEJSVj6m9fSTqGpDe1gnh+gZVIpBvAGo+vfcizdDB4pAcJaZdbjhPzxGuLEPd+BQH+QSk6FthXLCzyhbnOoG0IzS/FPNuDxYOj1gn0eVVuPM9IqPdxANGhV0EZxexc2BmHvrWNrB1eYV4rY51Mus+hOPkDFEqDayufR4wsrUDSW4xO4cWkMoHHowJe+w5tPKi5xgz5DlJ9U2YJH/DAZIb9ehxrCKsUMXM8dpa1snQpgDh6gaRpWpISCe3Ph9SW4w8gEpuNMH79IyEGh2LPypP7LoQV6FF65yNffRXzzcAldzYhe5lJ2LU1bARc0SJGinNBpx7HzgzFQegkhHI48srYknVABL3ONbYcInligKoZG1dMK+skqFaZGMtlkNFAT8uk4xM4G9mIrpM/1lnhfQN2fUidy9ABV8AAAAASUVORK5CYII=" Reference="7_4FWEJ9i06MoqUPbuk8kw/5ZFS8nIatkOiArrCWxwfMw" Selector="&lt;html app='chrome.exe' title='404: Not Found' /&gt;" Url="https://kpahrm.com/Person/Index/*" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="925b21ea6a0ed9f9b92d72ad8fcb1802.jpg" xmlns="">0DCxNj2WRjkaHDMFPdMeGKQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

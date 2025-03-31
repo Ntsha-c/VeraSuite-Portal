@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Welcome. Please Sign In.",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "86HziR91bUmg9RmtwKI58g",
+  "Reference": "7_4FWEJ9i06MoqUPbuk8kw/86HziR91bUmg9RmtwKI58g",
+  "ParentRef": "7_4FWEJ9i06MoqUPbuk8kw/nEq16RnfiEGmmb8JYYRxRw",
+  "Created": "2025-03-24T18:18:09.5753437Z",
+  "Updated": "2025-03-24T18:18:09.5753437Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

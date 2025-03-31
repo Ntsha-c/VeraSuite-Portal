@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Notice of Company Polic…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "pxbcipHgaU-UZ-zUUzlkUw",
+  "Reference": "7_4FWEJ9i06MoqUPbuk8kw/pxbcipHgaU-UZ-zUUzlkUw",
+  "ParentRef": "7_4FWEJ9i06MoqUPbuk8kw/IWnvRUAVBkyf-4_UT3xv5g",
+  "Created": "2025-03-19T10:42:38.2478918Z",
+  "Updated": "2025-03-19T10:42:38.2478918Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

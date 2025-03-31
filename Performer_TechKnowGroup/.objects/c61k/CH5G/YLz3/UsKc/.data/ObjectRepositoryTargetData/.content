@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="e1Fif1j4hUiK_5DqJEMuqw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="kpahrm.com/Person/Index/11056164" CVScreenId="51ce17b2-65ff-411d-9874-28196b265079" CvTextArea="73, 447, 128, 17" CvTextArgument="Manage Employees" CvType="Text" DesignTimeRectangle="24, 435, 232, 40" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='CN_Platform_Employee_Management_Manage_Employees_anchor' tag='A' /&gt;" Guid="7fae0c0d-9777-480f-852b-1955a9f26a5a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="51ce17b2-65ff-411d-9874-28196b265079" CvTextArea="73, 407, 132, 17" CvTextArgument="Employee Manage..." CvType="Text" DesignTimeRectangle="24, 399, 192, 40" FuzzySelectorArgument="&lt;webctrl id='CN_Employee_Management_anchor' tag='A' type='' class='ng-star-inserted' aaname='' /&gt;" Guid="f173650a-5d73-4bd6-830e-ab6efbdf6618" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c16daf73312ee83bfcb5e931834a2b71.png" xmlns="">0iMLH6L-N6Emvy_Bbbz3NaA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

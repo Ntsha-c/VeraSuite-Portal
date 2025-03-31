@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome KPA Online Portal",
+  "Type": "Screen",
+  "Id": "B053HoFDv0WXJ4Hd9Naq9w",
+  "Reference": "cZuNR9KNcE-8z0-D-TBWwQ/B053HoFDv0WXJ4Hd9Naq9w",
+  "ParentRef": "cZuNR9KNcE-8z0-D-TBWwQ/qA_OQN5KH0OXxy6ZooPsCA",
+  "Created": "2025-03-11T06:46:21.1721404Z",
+  "Updated": "2025-03-11T06:46:21.1721404Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

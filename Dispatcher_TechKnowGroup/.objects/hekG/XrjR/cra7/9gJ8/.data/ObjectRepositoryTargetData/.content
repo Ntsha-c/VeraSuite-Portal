@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="D4p3G5mnSECibGvx45wz_A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="verasuite.com/employee/directory" CVScreenId="4768cdaa-c56c-4b8e-84e4-2007129c7389" CvTextArea="700, 538, 42, 13" CvType="AnyWordGroup" DesignTimeRectangle="685, 527, 129, 36" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='k-list-optionlabel' tag='DIV' type='' /&gt;" Guid="8dbb0340-696f-48b4-8a9d-05b060790626" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3fc2eb1ac20ef085393197c196ce97b5.png" xmlns="">08W9oUGnVwkmfBTlhRaMHGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

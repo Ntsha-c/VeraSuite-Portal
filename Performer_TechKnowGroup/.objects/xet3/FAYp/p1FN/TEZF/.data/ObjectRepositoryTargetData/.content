@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TMkUyNhjhEO4FybfFLWp9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="verasuite.com/employee/directory" CVScreenId="2e9c8282-98c2-41bf-badf-e613d685094e" CvElementArea="367, 406, 211, 35" CvType="InputBox" DesignTimeRectangle="557, 416, 15, 15" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl tag='KENDO-ICON' /&gt;" Guid="d539fb10-2ab5-401d-aa0e-7c151f3e5eb2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2e9c8282-98c2-41bf-badf-e613d685094e" CvElementArea="367, 406, 211, 35" CvType="InputBox" DesignTimeRectangle="384, 413, 152, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl class='k-input-value-text' parentname='kendo-dropdownPrimaryLocation' tag='SPAN' /&gt;" Guid="1133e6e1-35d7-4938-b776-571aba35f372" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="32597f6cfc8b871d9ff46a4a96ab845d.png" xmlns="">0I2fZnh7CgE6bWo4A3UAB-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

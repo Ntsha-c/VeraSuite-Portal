@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="d6GXmV8c20mLXF9mlSqMCg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="kpahrm.com/Person/Index/10828318" CVScreenId="18c278fa-8c02-4eff-98ae-c05bab7fc7ea" CvElementArea="859, 201, 128, 40" CvTextArea="874, 215, 98, 12" CvTextArgument="Go to Dashboard" CvType="Button" DesignTimeRectangle="860, 203, 126, 37" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' /&gt;" Guid="ee143f18-d0c3-4e11-9135-b6e6a1bd0524" ScopeSelectorArgument="&lt;html app='chrome.exe' title='404: Not Found' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f1e18ed64cc78bb1b0b83d9a4ac6fb2f.png" xmlns="">03Kr9KoXMTkW-TCIyT3KpBQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

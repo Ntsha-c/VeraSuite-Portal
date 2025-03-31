@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome KPA Online Portal",
+  "Type": "App",
+  "Id": "Ea4XFvX-S0qx4nHOErW4Tw",
+  "Reference": "cZuNR9KNcE-8z0-D-TBWwQ/Ea4XFvX-S0qx4nHOErW4Tw",
+  "Created": "2025-03-11T06:46:21.1089098Z",
+  "Updated": "2025-03-11T06:46:21.1089098Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

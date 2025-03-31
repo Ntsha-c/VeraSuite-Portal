@@ -1,0 +1,312 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkFlows/Go_To_Portal.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_master_dt",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkFlows/getting_MasterData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Extracted_MasterData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "FilteredMasterData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Firstname&Sequence_9",
+        "Lastname&Sequence_9",
+        "Fullname&Sequence_9",
+        "PersonId&Sequence_9",
+        "Client_Foldername&Sequence_9",
+        "mainFolderPath&Sequence_9",
+        "LakelandFolderPath&Sequence_9",
+        "OkCarzFolderPath&Sequence_9",
+        "in_TransactionItem__Status_&Sequence_9",
+        "Bool_ClientFolderExists&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkFlows/extraction_Data_Training.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FileAlredyExists_Taskbar&Sequence_1",
+        "Selector1st&Sequence_1",
+        "Selector2nd&Sequence_1",
+        "inside2_dt&Sequence_1",
+        "variable1&Sequence_36",
+        "Required_dt&Sequence_1",
+        "Optional_dt&Sequence_1",
+        "ElementExists&Sequence_1",
+        "RowCount&Sequence_1",
+        "SelectorCount&Sequence_1",
+        "Target_Exists&Sequence_1",
+        "SelectorCount2&Sequence_1",
+        "Into_dt&Sequence_1",
+        "FIleDownloadTaskbar_Exists&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "File_FolderPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tests/TestTabke.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkFlows/test.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "Wanted_dt"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkFlows/Data_training.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Required_dt&Sequence_1",
+        "Optional_dt&Sequence_1",
+        "ElementExists&Sequence_1",
+        "RowCount&Sequence_1",
+        "SelectorCount&Sequence_1",
+        "Target_Exists&Sequence_1",
+        "SelectorCount2&Sequence_1",
+        "FIleDownloadTaskbar_Exists&Sequence_17",
+        "FIleDownloadTaskbar_Exists&Sequence_45"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "File_FolderPath",
+        "PersonId"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkFlows/extraction_Data_Policies.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_1&Sequence_1",
+        "dt_2&Sequence_1",
+        "SC&Sequence_1",
+        "S&Sequence_1",
+        "dt_11&Sequence_1",
+        "SC1st&Sequence_1",
+        "S1st&Sequence_1",
+        "dt_21&Sequence_1",
+        "bool_ViewExist&Sequence_1",
+        "SC2nd&Sequence_1",
+        "S2nd&Sequence_1",
+        "BrowserMain&Sequence_18",
+        "ElementExists&Sequence_1",
+        "RowCount&Sequence_1",
+        "Target_Exists&Sequence_1",
+        "FIleDownloadTaskbar_Exists&Sequence_1",
+        "FileAlredyExists_Taskbar&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "File_FolderPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkFlows/Setting_Well.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "output_dt&Sequence_2",
+        "RowCount&Sequence_1",
+        "rowIndex&Sequence_1",
+        "extracted_dt_final&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Transactionitem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkFlows/Any_Exception.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "Transaction_Item"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/RetryCurrentTransaction.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "in_SystemException",
+        "in_QueueRetry"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkFlows/Go_to_manage Employees.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkFlows/Login_VeraSuite.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "UserName&Sequence_2",
+        "Password&Sequence_2",
+        "isLoginSuccessful&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Credentials"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

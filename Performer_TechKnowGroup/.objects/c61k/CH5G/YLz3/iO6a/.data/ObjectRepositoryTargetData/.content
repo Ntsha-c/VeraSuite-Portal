@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UopswZ5QT0Cpp0uZHSkvJQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="kpahrm.com/Person/Index/11052359" CVScreenId="c20f5a85-cb48-447b-bc8e-f11ee36d2246" CvTextArea="1154, 288, 31, 12" CvTextArgument="View" CvType="Text" DesignTimeRectangle="1155, 311, 29, 17" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tabindex='0' tag='TABLE' /&gt;&lt;webctrl class='ViewSignatues' tableRow='2' tag='A' /&gt;" Guid="83d0a163-8c23-4aef-a950-55e748b3a498" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8cb363884cc96dde14d61035a01a5c1d.png" xmlns="">0OG-7BdzaXEWwLnyuNV72_Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Manage Employees",
+  "Type": "Element",
+  "Id": "OI_1tG0LqU6uSPWsBtYxOg",
+  "Reference": "cZuNR9KNcE-8z0-D-TBWwQ/OI_1tG0LqU6uSPWsBtYxOg",
+  "ParentRef": "cZuNR9KNcE-8z0-D-TBWwQ/cra7n927uEuFaHkumz6GzA",
+  "Created": "2025-03-11T07:16:42.9930445Z",
+  "Updated": "2025-03-11T07:16:42.9930445Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

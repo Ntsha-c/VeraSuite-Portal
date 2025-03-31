@@ -1,0 +1,13 @@
+﻿{
+  "Name": "A CN_Employee_Managemen…",
+  "Type": "Element",
+  "Id": "YJ1-1lYZIkmTyhBBzLedHw",
+  "Reference": "7_4FWEJ9i06MoqUPbuk8kw/YJ1-1lYZIkmTyhBBzLedHw",
+  "ParentRef": "7_4FWEJ9i06MoqUPbuk8kw/az2JDObb10O5AhlZjQTvlA",
+  "Created": "2025-03-20T02:50:56.744164Z",
+  "Updated": "2025-03-20T02:50:56.744164Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

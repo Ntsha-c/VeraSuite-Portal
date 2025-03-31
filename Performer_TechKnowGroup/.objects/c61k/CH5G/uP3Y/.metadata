@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Employee(2)(1)",
+  "Type": "Screen",
+  "Id": "uP3YOFo_hkmyELq2pTGolg",
+  "Reference": "7_4FWEJ9i06MoqUPbuk8kw/uP3YOFo_hkmyELq2pTGolg",
+  "ParentRef": "7_4FWEJ9i06MoqUPbuk8kw/CH5G4ulZZk-U51nrsrI9Og",
+  "Created": "2025-03-21T05:39:30.0566773Z",
+  "Updated": "2025-03-21T05:39:30.0566773Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

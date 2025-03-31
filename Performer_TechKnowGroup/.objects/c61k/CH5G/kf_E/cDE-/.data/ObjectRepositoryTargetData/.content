@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="42f3i_FTXEa7g0XQx6uPOg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="kpahrm.com/Person/Index/10812664" CVScreenId="1eb5a9aa-5ccb-4b59-91f7-6032c2139da8" CvTextArea="602, 282, 108, 13" CvTextArgument="View Attachments" CvType="Text" DesignTimeRectangle="604, 281, 105, 17" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='btnViewAttachments' tag='A' type='' class='' aaname='View Attachments' check:innerText='View Attachments' /&gt;" Guid="76a8d7e7-4235-456a-9ea7-6d5ba95182bd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c957a8e1a40bfc7f2ce3ca78ab3fd0d5.png" xmlns="">0HT0c94CdP0S9_59_cRi3Vg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScroll</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

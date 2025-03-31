@@ -1,0 +1,236 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Login_VeraSuite" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_Credentials" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>Login_VeraSuite_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Login_VeraSuite" sap:VirtualizedContainerService.HintSize="1056,2214" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Login_Sequence" sap:VirtualizedContainerService.HintSize="1056,2025" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="UserName" />
+        <Variable x:TypeArguments="ss:SecureString" Name="Password" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1022,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Login Process Started.....&quot;]" />
+      <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="[in_Credentials]" CacheStrategy="None" DisplayName="Get Credential" FolderPath="TechKnowGroup" sap:VirtualizedContainerService.HintSize="1022,176" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[UserName]" />
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome KPA Online Portal" sap:VirtualizedContainerService.HintSize="1022,1582" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="aef2abf3-5345-4d95-9256-c9380e55d360" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="988,1341" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:Boolean" Name="isLoginSuccessful" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="aef2abf3-5345-4d95-9256-c9380e55d360" Text="[UserName]" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="logon.mykpa.com/identity/login" CVScreenId="52a5585f-73bb-4e90-be30-9e8722ec2101" ContentHash="fs7M5U7yVUKV1tvs58EuSQ" CvTextArea="576, 411, 80, 15" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="529, 391, 310, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='mdc-text-field__input' aaname='Username' /&gt;" Guid="4cdaff84-c328-4807-ae06-83fef4f2da46" InformativeScreenshot="1d6fd2ec3b84b3c141c6602a692b6093.png" Reference="cZuNR9KNcE-8z0-D-TBWwQ/nUWQjcQfpUygYR8aV8ZW6Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Online Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="52a5585f-73bb-4e90-be30-9e8722ec2101" CvElementArea="528, 389, 312, 59" CvType="InputBox" DesignTimeRectangle="577, 410, 78, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='mdc-floating-label mdc-text-field-login' aaname='Username' check:innerText='Username' /&gt;" Guid="a5b82648-8059-4282-9afa-ea372a480073" SearchSteps="Selector, FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="aef2abf3-5345-4d95-9256-c9380e55d360" SecureText="[Password]" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="logon.mykpa.com/identity/login" CVScreenId="52a5585f-73bb-4e90-be30-9e8722ec2101" ContentHash="HN1VCUPhlkKJwpgT3_M5vw" CvTextArea="576, 511, 75, 16" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="529, 492, 310, 56" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='mdc-text-field__input' aaname='Password' /&gt;" Guid="1a39e21d-1ac5-4d41-b455-7762da13d43e" InformativeScreenshot="3e2aca0d61e092fecfb1ba72ed089dde.png" Reference="cZuNR9KNcE-8z0-D-TBWwQ/1J4wI2j_eUW7VwiSGd7vIw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Online Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="52a5585f-73bb-4e90-be30-9e8722ec2101" CvElementArea="528, 490, 312, 60" CvType="InputBox" DesignTimeRectangle="577, 511, 73, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='password-group' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='password-group' tag='LABEL' type='' class='mdc-floating-label mdc-text-field-login' aaname='Password' check:innerText='Password' /&gt;" Guid="48dcaabf-4366-4a00-98e3-d7c92d8f9617" SearchSteps="Selector, FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign In'" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aef2abf3-5345-4d95-9256-c9380e55d360" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="logon.mykpa.com/identity/login" CVScreenId="52a5585f-73bb-4e90-be30-9e8722ec2101" ContentHash="JW851CJMnkyHmOMTmdY08Q" CvElementArea="527, 638, 314, 39" CvTextArea="652, 651, 61, 14" CvTextArgument="SIGN IN" CvType="Button" DesignTimeRectangle="529, 568, 310, 36" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='login' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login' tag='BUTTON' type='submit' class='mdc-button mdc-button--unelevated kpa-form-row mdc-ripple-upgraded' aaname='Sign In' check:innerText='SIGN IN' /&gt;" Guid="5fe369d6-f76a-424f-8ba1-54f9c0bda78f" InformativeScreenshot="90d2f5ffabe7f7aceff53a9c19225f2d.png" Reference="cZuNR9KNcE-8z0-D-TBWwQ/U8o1yZccxE6UlgQG7tL41A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Online Portal' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NCheckState DisplayName="Check App State 'Dashboard'" Exists="[isLoginSuccessful]" sap:VirtualizedContainerService.HintSize="954,476" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="aef2abf3-5345-4d95-9256-c9380e55d360" Timeout="20" Version="V4">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,232" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Login Successful&quot;]" />
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,178" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Throw Exception="[new SystemException]" sap:VirtualizedContainerService.HintSize="416,116" sap2010:WorkflowViewState.IdRef="Throw_1" />
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="cloud.uipath.com/natashaauxiliobits/DefaultTenant/orchestrator_/queues" CVScreenId="561af7ec-ac0d-4fd7-b75b-085ab1c592bb" ContentHash="h7Krb48e_0CYtcMgOVmZqA" CvTextArea="344, 247, 160, 28" CvTextArgument="Dashboard" CvType="Text" DesignTimeRectangle="344, 241, 959, 43" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='' aaname='Dashboard' check:innerText='Dashboard' /&gt;" Guid="098e22be-964f-4f6c-86fa-7a8d9c6f882a" InformativeScreenshot="714b77f6f55968266ad0c6aff61852c7.png" Reference="cZuNR9KNcE-8z0-D-TBWwQ/V6WluYoefEW0srzWkWn0Bw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="561af7ec-ac0d-4fd7-b75b-085ab1c592bb" CvTextArea="73, 167, 74, 14" CvTextArgument="Dashboard" CvType="Text" DesignTimeRectangle="74, 158, 182, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='CN_Platform_dashboard_placeholder' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='CN_Platform_dashboard_placeholder' tag='SPAN' type='' class='mat-tree-node-text-line' aaname='Dashboard' check:innerText='Dashboard' /&gt;" Guid="e9efe091-0085-4e15-abe8-53f5fb0adc25" SearchSteps="Selector, FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NCheckState.Target>
+              </uix:NCheckState>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="KQ-bgxbC4Uq_jHnG4T9mcw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA2aSURBVGhDvZcJWJVVGsc/BJVUBEkFF/CCgKyCoKKiLKKCK9RUY4tIUzPaM6WTK5UILrgbhAup4JotWmHmU84oXkvRcs3maXRMRRMxU7lImsvF8877nuXju3BFbZmX5/+8yzn3O7/3fOf77kX7PczFydFtpKd7+qwAr9w1YZ2LD/XpWnaqX4TlUv/ucKl/DzgV281ysHdoWXFkF/Msf6/cpDZuqR2dm5g056auWmRYmpb25BZt0tgT2sxJ1VwTxxzX0p4oxrFRfM4fYQQ9xstjfHFEgFmBCm+IE1Qu9GNCFNe3SX3ghZeeZY3nZNzV5r8BDWr21Jva8IF5WovmHnLp32YEPtnUPuv7fuGVlxKiGAeLj7T1BI4ib6yR1j+ZxFrkTLUP25BmTLqmBQekSIxfZ5NN7RBcHQ0Coh2theO1uEimdvoixhfjuvH8QnwUTHzxz6DNe90+4INo3utM6993muaAfw9jdF5Luoccpd3kIsA6XoFyj7AX4yOlaE4ULHlmmH2oX6Pu4c9LtPvbUx6tR5/sG27RARGKA+qgRlipuEioIMV2YxWxEWzT4wPBce5r9UHwbjRaMA0cF2TqufKOWG80f5r9OzYn447m7zNQIt7bJnXyzFKwCkztLsEJHyE8jtE4h8daRVw36SNh0IQX60MosNmTQct+tX59xgQcm2JbM4reXA3ZRG/PLOPuKhixszKORUj0F/pJYIqxRuJjqKMDo+0C8N2dNRmGbl4PWXt2gjY3Axxo3jwcn5MBU8yfw4D3V/M5fG6dz+M1mebSop3EtbWnPB4dXcGhDMdB5gJUAkovoCOoERH3DWfKz31uRP3FUU50bLL+AYsP7AGytG2b+Z3gxwmhr/xyA+Z/9QVo08eLuXauofWKHCuRa40e2OO9wyo5IEITBIEad1VAIywHFb5cxbyJCChHT+o1eSyzt7gj7So2MHufGa7fuQ0/3bgOHvk50GgOvmJzpsB/r16GzD07+Bw+1841tBdGbpfYtfZ1dHCZzS4SEMUSyOh5HNOVKVhdfUnh3Luoc1xHfFdxd5cf+Qp2nzsDm078G7adOsGBNWzidOVVyN5bwvN73oHsiVUSW9gEL48sfRdJBnBbQIIziJqoUzsvfRM8z/YWF0doHG+gtPwcuC6czo9S8qa1oE17Bc5VWcSz0VADOVNvSXRNa9K6mWnhq/G1u4lQ51G8AR2oNqYx7pX6hLHy5Bi4VlQAt44cBGvFBQ7UZNF0u4uLBsbDkkP74dufLoI2dQxMNm+HKzdugMOsSfB95ZWHuwOmsZFrY9emwpEhPfTdswWUwDFdpVQcDhefSObQ9sy7YIHdxVUDSw/vgyM/XgCHGRP5K/Ukgs/evxsOVJyHWaXmhh9i+gFI1uTRZqbIdx+HKNRLswfpYD/grtpCC/2g1DuUWfLmw93qaokrrMLCYNs3t2GV+RaEr1hnd3HxEI+H/EOlcLCiHPBXKH/7dF+7DG7euQNVN2/iq3Q7vwP3fIjVd4F7rHd6xMYU1m1jKkRufAw+ezJaAoYx7vsohXFois+hrypcLpGFfXr0Noxdex16ZFVBz+xr3HvNwnNsZ3G+q9PHQdGxg3Dy6hX+xdUYnwMCnrf/C369jN2igXveAfUaDcxJOBrxTgojeGokbUGygJXQ53oRNHql3mFQmTePL0JWYbkLY9YI8O7ZVdAD1Z1iVEj2abuL8y+nmRPgr58X43fBXn58qOaAX2iPLMqCD45/C48Xb8Q5E+1/kZFauZr48QnfMIKFYwPd3kmFCBT5pWNi2LleIQx3mgNTfFbm5amDmDo2BD88t1oHJkVNrxXlLeesqr+4+nbGd76GD61NjTyC0+vUpm7Q8MK/gFvzRm5ayyiPlIgNKVBXMUUj4LvYMHY2msCpiVAgfzY6mP28bQuHJ/vb6p8R1GIQgiN0pKEWnHUKfybYeRshmAN6+kFnA4+efszRmD34JgsyoMwcBWmDXdO19s+E5IavHwFCKdxTA13XD2fzXumnQ5dFh0BZrxAof2yQRAfYimeeQO1LNKHkPfPLeiA2cA8SSxUWJ4F1XyAsHtc2T+uc0dvcdd0ICFs3nBmbCFs3jFH964ERwOGlrr45V+IDDF18DbplWmqFoDZ5HXnO2lYP5mGV+d5jYC3twqylgfDR3I5btKBFiWVd1w0HewpbO4w9nZPIynoEsTOosp7BcPPwAQ5/4mINRCAUieBU3LAqwSf7ADSaN8MuXENyWTQFtmyNQ3h/hPdnNaUBcPpDnzItdO1Q1nUtAqPCuIbxmOoUU21rSjfewBlsQD28u/5zB8IRiGua9CgCFd5YM9YtEJR5FlxyiuyC2tOQlc/DmZJwsO71Y9a9/tzXlPrB5c99LFrYmmEQugZh0d9LifnJcKZ7IDsd1YVxerSCXTehK4IrKVibmp2YNytj36xj4DFzGwQXrIaAlbnQ/M0Z0HzhFPB/axwkrXieZb6bAiWf9QaCte71ZTV7O0PNXj+e8xi9FrJmCAtFSFsNhdDVKIxDVg9hwai8F3rB6ahAvYHlJb/ocEaFNZDXHVM1upYyAq2FVfIVKu1M42Dd44N3AD3GWtDSJEvw6sEshIBRFJMPKRrCc6oHFw1mPQuS4VhMMP5IK+cLbTlyC8LeqITQN65yTyDcG+M6Xs0NpZqhXoLHkZv1GociWOseEzbig7mPbABjrHEvYl7T/BbElxEkKQhBdXD0SlQnZYyPgV8Ofc3XuoBfYAQkJODsq+5Y/bnHK2r4NVnVfg5Vg3AEWCtvRrXaujcjndrUoUzr+PfI4uDCIbjLAja4cLBNHFSYzEi8jvMOfbiSL0aWXngNQhAgBKGEf3gNWlQlrwZw9/QMhOuEoLZCWLB+6YXQJIxlvjPfw6x5jgzOFXACljcjc1LgqiRsgHwyI43MTZHLARQfvg3Br1+FYAThwpigeO0+UvOKD9+SVwOoOdAbATvibhMg+Y4ETbA8F14K64tfds3TXHt3SCdIDroqGUi8mVVKoiYk8q8rjsklAUavqoYgBFEiqKDXr+igxjHbOVfxs9fkVfD4XNqsQKU6IHB7FPmOUMNrlGO8R2hEX+cUzfERJzcOtzIZuqwcxJsI5DE2hd4oqtGcxPdGQ/Xt63zh8sq7MGCBBQIRmsADXxO+Nr6q12iOqg1YaIFyfI7Iqm9dx92PJlgB+kU7HpOvMXqu9nK8HTN5OJr4z2mviT3MgSuTJGgSdFkxCOExX6Fqos5zWcvZV8AXJ6Mm0nA3Ca6eZANGjcK59BllVSfx7HMogvNkXF+2o5oh98Qm2mGDon64sPVRDk/mlug9vguCKQW8PZDV5oNs6nzsbVFbcmiDRBD28aFb0H9+JQQgZBeU8kqjVlbBx4YzT/bRsSKoNNPx0IEN8kBoYy5UgxqV5Dxa4mtaI2cnN7/cBIs/wpE4oIQkHyBFY+SNNboTdASMdvxCDez47jbk77gBS3bewMZu2uw4WfWtnyGntAA2bw1CqLa0y+g9ZOyBkBQrtcW8LVh3t2EkGtOPjzL3Yb5ZCiqgAGELBrCAgoEYo7DmJ3O/5ehl7i/H4955ln104p8S7f721YVvIG7DsyyuMBZhEUxpd2sEROl5Gy4Jj3qUGoCiqS5rJHat0V3wXRRfqcD8l6PI83iATU7Qek5jMo/f8Bzk7C3ggOerf5S4wGOq5R9YD1GrU8Vn8XNnd+BbRQdrjZ5kiM0U24xxeXs0st19Za2G+mbhDvMFOi9PZDo490oi77yMxvkd0WOq+y0TopryYtxY688mvxuJMO54HAjMnUAFpLmVjEnuth7Hpqc7Z0lc++aVEX1UQSgpeL9liVLG8bq5sabmJ4Lv0v4cnuLIgng4+y98GCUUBzQTpDvWhLea3RivmVthjkJ/6r2WZyTmvc3J3dnkszDW0nlpIijRokZPMMInMAVGXiiBjynVzTsv7Q+5mwIRrhXCEpgbu2N2xZzkJmuujPydXS15jXT505YW072OTl1z6emZ7rMkgZHUokIYL0FPwtwXfe0cMUa5XkdPsfFzfVfESKhaOBG7SmBXsOrehWHMfUpM41SJ92DmPtg3mxa3J5/8eB1Sr+cn1JunZML59BnSpo/xpzKBKUBzSwQXXsC2QGgXakoI48y0ptkS6+HMbbApi4OhBITwJAVmegvjfGoqgUsfl7nypJFF3TmQUTVmgrWtWXc1Z7y+qwVMH9244Yf2ftYstHWq97y+FgTVQXzeSoBOb8UhfByjWNV8cA7VSZTTZ4z52e34UCIcgdmqOaoZ1pvDnZJHmBV1eWszS1qSU7rE+G3m1MrZ1HF6dBkHzEPwPOkx55AYd8qLRYkxXfp4LJuwLlTAcdBmQJAcXNSEL3mEPBxc6XzU5OHwYA/sw5hrcqcsBeaNUKa8OA7qnUux8CrulCvGSDHLeuHu49uFQAWslLMObS1pyi5/0sSSmeb06877gxrdjUef7rKGQAnSKK/F/XgDXrn9+BjGvL7qA/w3EAERmKCFdjbV48ufNK7MTHPMcmvu4CaX+eONGmnRwzO93aSoowTOgd+M1SVqsdBnaS+CrxWB72zCULDzzcbml//kOP7/Cm7PqBl62N1SfXPbvBRmbj+tZxk10XFRX/b+5g64w06Wkxudyj6c4VS86CXH3FFJDqN/H2hN+x+Bu/+C6IaLMwAAAABJRU5ErkJggg==" InformativeScreenshot="7ebca35f16c9a8bff7f5359ea0065541.jpg" Reference="cZuNR9KNcE-8z0-D-TBWwQ/B053HoFDv0WXJ4Hd9Naq9w" Selector="&lt;html app='chrome.exe' title='KPA Online Portal' /&gt;" Title="KPA Online Portal" Url="https://logon.mykpa.com/identity/login?signin=0e7e76bfd86c732fd6cc6fe4769f9323" Version="V1" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1056,166" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Login Process Ended&quot;]" />
+  </Sequence>
+</Activity>

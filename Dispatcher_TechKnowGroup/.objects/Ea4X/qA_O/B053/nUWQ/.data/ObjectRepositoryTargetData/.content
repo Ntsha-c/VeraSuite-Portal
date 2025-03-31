@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fs7M5U7yVUKV1tvs58EuSQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="logon.mykpa.com/identity/login" CVScreenId="52a5585f-73bb-4e90-be30-9e8722ec2101" CvTextArea="576, 411, 80, 15" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="529, 391, 310, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='mdc-text-field__input' aaname='Username' /&gt;" Guid="4cdaff84-c328-4807-ae06-83fef4f2da46" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Online Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="52a5585f-73bb-4e90-be30-9e8722ec2101" CvElementArea="528, 389, 312, 59" CvType="InputBox" DesignTimeRectangle="577, 410, 78, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='mdc-floating-label mdc-text-field-login' aaname='Username' check:innerText='Username' /&gt;" Guid="a5b82648-8059-4282-9afa-ea372a480073" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1d6fd2ec3b84b3c141c6602a692b6093.png" xmlns="">0nsmQznCwskeTDD3GPuPUjw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

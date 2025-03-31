@@ -1,0 +1,214 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Go_To_Portal" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Go_To_Portal_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Go_To_Portal" sap:VirtualizedContainerService.HintSize="1008,1524" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="518,1501" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome KPA Platform" sap:VirtualizedContainerService.HintSize="484,1418" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="29959c83-f578-48de-9d5e-8bfa6bc27057" Version="V2" WindowResize="Maximize">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1178" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Lakeland Toyota Inc'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="29959c83-f578-48de-9d5e-8bfa6bc27057" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="verasuite.com/employee/directory" CVScreenId="8067c029-fa3b-4022-92d6-24d57bc77e17" ContentHash="HRTcPLlM_kiL8IwiYsCyNQ" CvElementArea="366, 406, 212, 35" CvType="InputBox" DesignTimeRectangle="557, 416, 15, 15" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl tag='KENDO-ICON' type='' class='k-i-caret-alt-down k-icon' aaname='' /&gt;" Guid="688c8799-a1fd-47a9-a075-b03768dec5db" InformativeScreenshot="b102178bef9c1b1a90e572161c8df96c.png" Reference="7_4FWEJ9i06MoqUPbuk8kw/2F27WIffkE6cHRF99plXpA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="8067c029-fa3b-4022-92d6-24d57bc77e17" CvElementArea="366, 406, 212, 35" CvType="InputBox" DesignTimeRectangle="384, 413, 152, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl class='k-input-value-text' parentname='kendo-dropdownPrimaryLocation' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='k-input-value-text' parentname='kendo-dropdownPrimaryLocation' tag='SPAN' type='' aaname='Lakeland Toyota Inc' check:innerText='Lakeland Toyota Inc' /&gt;" Guid="6dd32df6-5515-4157-a072-b0059476c0aa" SearchSteps="Selector, FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset X="-2" />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Primary Location'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="29959c83-f578-48de-9d5e-8bfa6bc27057" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="verasuite.com/employee/directory" CVScreenId="f39878ff-e03e-4295-bae8-d2c3eb1a7a0d" ContentHash="XdqomAZ7fEmZllDmnUHOtw" CvTextArea="383, 453, 112, 16" CvTextArgument="Primary Location" CvType="Text" DesignTimeRectangle="368, 442, 208, 36" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='k-list-optionlabel' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='k-list-optionlabel' tag='DIV' type='' aaname=' Primary Location ' check:innerText='Primary Location' /&gt;" Guid="982c2423-1c9e-4223-9f1c-3f2c16bd15b5" InformativeScreenshot="0566ed039e80bd71df3439a69ecf766e.png" Reference="7_4FWEJ9i06MoqUPbuk8kw/GtPwz7RGU0Gv6sV-UFuB1A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Status'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="29959c83-f578-48de-9d5e-8bfa6bc27057" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="verasuite.com/employee/directory" CVScreenId="b7643076-fcb4-478b-bd15-318782393733" ContentHash="8ZgOTI-M9EKb6e2HpMCkTg" CvElementArea="687, 472, 129, 35" CvType="InputBox" DesignTimeRectangle="795, 480, 15, 15" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl parentid='inpStatus' tag='KENDO-ICON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='inpStatus' tag='KENDO-ICON' type='' class='k-i-caret-alt-down k-icon' aaname='' /&gt;" Guid="249707c7-da81-4116-91e2-ce8c8b5a4207" InformativeScreenshot="0c7c42137a122c6156f5d9304689f9a4.png" Reference="7_4FWEJ9i06MoqUPbuk8kw/avG05lR4tkuD2Sl23OES2w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="b7643076-fcb4-478b-bd15-318782393733" CvElementArea="687, 472, 129, 35" CvType="InputBox" DesignTimeRectangle="701, 477, 73, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl class='k-input-value-text' parentname='kendo-dropdownStatus' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='k-input-value-text' parentname='kendo-dropdownStatus' tag='SPAN' type='' aaname='Status' check:innerText='Status' /&gt;" Guid="09dfe4f3-950f-4de4-a60a-1b4740204a6a" SearchSteps="Selector, FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset Y="-2" />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Status(1)'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="29959c83-f578-48de-9d5e-8bfa6bc27057" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="verasuite.com/employee/directory" CVScreenId="113aa8bc-22e6-46cb-b33a-e8f45001e8fb" ContentHash="z0xLiHh1PUCw7K-lzGDSbA" CvTextArea="700, 517, 42, 13" CvTextArgument="Status" CvType="Text" DesignTimeRectangle="685, 506, 129, 36" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' Status ' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Status ' tag='DIV' type='' class='k-list-optionlabel k-focus k-selected' check:innerText='Status' /&gt;" Guid="38bd91ef-5af0-4093-96ab-361f43d6bec9" InformativeScreenshot="e6984cbb650719683c21eb128b01a93e.png" Reference="7_4FWEJ9i06MoqUPbuk8kw/nj0VBRxOGEaXNhloY60Bqw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset X="2" />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="29959c83-f578-48de-9d5e-8bfa6bc27057" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="verasuite.com/employee/directory" CVScreenId="09069ff3-293d-4ad6-8040-88c05a920508" ContentHash="cQrL8_dzRE2SeSpiDeoOzQ" CvElementArea="742, 595, 164, 43" CvTextArea="795, 609, 55, 13" CvTextArgument="SEARCH" CvType="Button" DesignTimeRectangle="797, 606, 53, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='btnSearch' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='btnSearch' tag='SPAN' type='' class='k-button-text' aaname=' Search ' check:innerText='SEARCH' /&gt;" Guid="1c005000-dda1-40b1-b68a-ddfc5e727f0e" InformativeScreenshot="4f6bb2e8b2e53f4645d4b38c7fa6aa5d.png" Reference="7_4FWEJ9i06MoqUPbuk8kw/nGrTSovcZ0qE6yYzj5Wc7A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="09069ff3-293d-4ad6-8040-88c05a920508" CvElementArea="742, 595, 164, 43" CvTextArea="795, 609, 55, 13" CvTextArgument="SEARCH" CvType="Button" DesignTimeRectangle="744, 597, 160, 39" ElementType="Button" FullSelectorArgument="&lt;webctrl id='btnSearch' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='btnSearch' tag='BUTTON' type='submit' class='standAloneBtn search-button k-button kpa-primary k-button-md k-rounded-md k-button-solid-info k-button-solid k-focus' aaname=' Search ' check:innerText='SEARCH' /&gt;" Guid="a2492f4a-87b1-4187-99b8-d08954900d83" SearchSteps="Selector, FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="57iKyqK2YUmaqIl-kjJxDA" IconBase64="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" InformativeScreenshot="7adeba489939198e0e6972665b3834aa.jpg" Reference="7_4FWEJ9i06MoqUPbuk8kw/3b1tiCdzdES0kHaZgOqS5A" Selector="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" Title="KPA Platform" Url="https://www.verasuite.com/employee/directory" Version="V1" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

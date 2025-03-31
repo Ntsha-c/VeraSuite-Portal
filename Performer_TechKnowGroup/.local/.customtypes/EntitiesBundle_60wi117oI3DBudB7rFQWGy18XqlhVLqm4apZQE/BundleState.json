@@ -1,0 +1,58 @@
+{
+  "assemblyStates": {
+    "fd0196778793.0zDMD4JzA6G15Tfpm3Lpozq3": {
+      "namespace": "UiPath.UIAutomationNext.Activities.Design.SWEntities.fd0196778793.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.UIAutomationNext.Activities.Design.SWEntities.fd0196778793",
+        "hash": "MDE5Njc3ODc5Mw",
+        "assemblyName": "fd0196778793.0zDMD4JzA6G15Tfpm3Lpozq3"
+      }
+    },
+    "Studio.Generated.TypedDataTable1": {
+      "namespace": "System.Data",
+      "providerName": "TypedDataTable",
+      "key": {
+        "name": "Studio.Generated.TypedDataTable1",
+        "hash": "ReadRangeConnections\u00601_1|DataTable|T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU",
+        "assemblyName": "Studio.Generated.TypedDataTable1"
+      }
+    },
+    "Studio.Generated.TypedDataTable2": {
+      "namespace": "System.Data",
+      "providerName": "TypedDataTable",
+      "key": {
+        "name": "Studio.Generated.TypedDataTable2",
+        "hash": "ReadRangeConnections\u00601_1|DataTable|ZR6kj9PP7Y8DDcde6ko4qzVDhVbEjW51Ef8ZMA4VWwE",
+        "assemblyName": "Studio.Generated.TypedDataTable2"
+      }
+    },
+    "Studio.Generated.TypedDataTable3": {
+      "namespace": "System.Data",
+      "providerName": "TypedDataTable",
+      "key": {
+        "name": "Studio.Generated.TypedDataTable3",
+        "hash": "ReadRangeConnections\u00601_1|DataTable|7EwKABDn1wuEmMfgFiBDdp7g3UrXlfnOa2yQY4YX90",
+        "assemblyName": "Studio.Generated.TypedDataTable3"
+      }
+    },
+    "Studio.Generated.TypedDataTable4": {
+      "namespace": "System.Data",
+      "providerName": "TypedDataTable",
+      "key": {
+        "name": "Studio.Generated.TypedDataTable4",
+        "hash": "ReadRangeConnections\u00601_3|DataTable|T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU",
+        "assemblyName": "Studio.Generated.TypedDataTable4"
+      }
+    },
+    "Studio.Generated.TypedDataTable5": {
+      "namespace": "System.Data",
+      "providerName": "TypedDataTable",
+      "key": {
+        "name": "Studio.Generated.TypedDataTable5",
+        "hash": "ReadRangeConnections\u00601_3|DataTable|Kgmv3jouLJkbaYtSFlXZ6xzAUxBfM3dmWdgA80DzJ8",
+        "assemblyName": "Studio.Generated.TypedDataTable5"
+      }
+    }
+  }
+}

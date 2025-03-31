@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JW851CJMnkyHmOMTmdY08Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="logon.mykpa.com/identity/login" CVScreenId="52a5585f-73bb-4e90-be30-9e8722ec2101" CvElementArea="527, 638, 314, 39" CvTextArea="652, 651, 61, 14" CvTextArgument="SIGN IN" CvType="Button" DesignTimeRectangle="529, 568, 310, 36" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='login' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login' tag='BUTTON' type='submit' class='mdc-button mdc-button--unelevated kpa-form-row mdc-ripple-upgraded' aaname='Sign In' check:innerText='SIGN IN' /&gt;" Guid="5fe369d6-f76a-424f-8ba1-54f9c0bda78f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Online Portal' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="90d2f5ffabe7f7aceff53a9c19225f2d.png" xmlns="">0C8lVck_nHke9FcKwRvHtVw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

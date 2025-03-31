@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HN1VCUPhlkKJwpgT3_M5vw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="logon.mykpa.com/identity/login" CVScreenId="52a5585f-73bb-4e90-be30-9e8722ec2101" CvTextArea="576, 511, 75, 16" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="529, 492, 310, 56" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='mdc-text-field__input' aaname='Password' /&gt;" Guid="1a39e21d-1ac5-4d41-b455-7762da13d43e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Online Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="52a5585f-73bb-4e90-be30-9e8722ec2101" CvElementArea="528, 490, 312, 60" CvType="InputBox" DesignTimeRectangle="577, 511, 73, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='password-group' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='password-group' tag='LABEL' type='' class='mdc-floating-label mdc-text-field-login' aaname='Password' check:innerText='Password' /&gt;" Guid="48dcaabf-4366-4a00-98e3-d7c92d8f9617" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3e2aca0d61e092fecfb1ba72ed089dde.png" xmlns="">0pgCRBsr-0EikeDflZ_Z26g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

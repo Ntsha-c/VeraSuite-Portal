@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="216wp-jdOU6NWNDPgwEXjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="verasuite.com/employee/directory" CVScreenId="99316535-ee13-4021-86ae-7545a234168d" CvElementArea="742, 595, 164, 43" CvTextArea="795, 609, 55, 13" CvTextArgument="SEARCH" CvType="Button" DesignTimeRectangle="744, 597, 160, 39" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='btnSearch' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='btnSearch' tag='BUTTON' type='submit' class='standAloneBtn search-button k-button kpa-primary k-button-md k-rounded-md k-button-solid-info k-button-solid' aaname=' Search ' check:innerText='SEARCH' /&gt;" Guid="0344222c-6e7b-4757-997e-6081a36122e8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="99316535-ee13-4021-86ae-7545a234168d" CvElementArea="742, 595, 164, 43" CvTextArea="795, 609, 55, 13" CvTextArgument="SEARCH" CvType="Button" DesignTimeRectangle="797, 606, 53, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='btnSearch' tag='SPAN' type='' class='k-button-text' aaname=' Search ' check:innerText='SEARCH' /&gt;" Guid="fb10cbac-6d77-4d26-9d30-1bd97f2faa56" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="4" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="a07ce29a23f106ec7ed2d67bf207bebd.png" xmlns="">0wdtpvjxxBE2w_tLYQNheyw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

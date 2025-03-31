@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="y__h6T6s3UCwXzGZ9zpkKA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="kpahrm.com/Person/Index/10779608" CVScreenId="5267c83b-a6a1-4543-a044-1e5bb42ba906" DesignTimeRectangle="502, 363, 753, 18" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='*Optional*' parentid='trainingsAccordion' tag='A' innertext='*Optional*' /&gt;" Guid="5d85a92a-011c-4c17-89a2-9686d37d5e80" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0e14e19eaf7c523dc57cdac6cba74083.png" xmlns="">0d-sKKb5P-U-8wXc26PQmmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

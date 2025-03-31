@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Employee",
+  "Type": "App",
+  "Id": "c61kZoKbCUyRPLcv2-nXGQ",
+  "Reference": "7_4FWEJ9i06MoqUPbuk8kw/c61kZoKbCUyRPLcv2-nXGQ",
+  "Created": "2025-03-19T12:04:05.6655441Z",
+  "Updated": "2025-03-19T12:04:05.6655441Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

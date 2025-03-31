@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="si_hA92jY0-pYszk83ZxOg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="kpahrm.com/Person/Index/10662580" CVScreenId="74fd8706-1b38-411f-bc8e-d86aed277d37" CvTextArea="1154, 185, 31, 12" CvTextArgument="View" CvType="Text" DesignTimeRectangle="1155, 281, 29, 17" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tabindex='0' tag='TABLE' /&gt;&lt;webctrl class='ViewSignatues' type='' tag='A' aaname='View' check:innerText='View' /&gt;" Guid="dff63930-ab4f-49df-a54a-ca7f7eef3167" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="74fd8706-1b38-411f-bc8e-d86aed277d37" CvTextArea="1152, 161, 106, 12" CvTextArgument="View Signature History" CvType="Text" DesignTimeRectangle="1153, 250, 133, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='View Signature History' class='k-link' tableRow='1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='View Signature History' class='k-link' type='' tag='A' check:innerText='View Signature History' /&gt;" Guid="e67962f3-deb8-41f8-9391-2db6f896f37a" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f5ec94a039c7b08de1c07aa9e64a5ad8.png" xmlns="">0x-2pmxuYgU6KN6NWbzg3Yg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

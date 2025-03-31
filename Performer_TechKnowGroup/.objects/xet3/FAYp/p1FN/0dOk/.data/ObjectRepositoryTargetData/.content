@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_24aHUgY2ka0EViE8aS6nQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="verasuite.com/employee/directory" CVScreenId="ca80705b-5a85-433e-abba-845858930662" CvTextArea="383, 453, 112, 16" CvTextArgument="Primary Location" CvType="Text" DesignTimeRectangle="368, 442, 208, 36" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='k-list-optionlabel' tag='DIV' type='' aaname=' Primary Location ' check:innerText='Primary Location' /&gt;" Guid="afe38679-62fc-4379-859c-edfc2e1a3705" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ca80705b-5a85-433e-abba-845858930662" CvTextArea="384, 414, 149, 16" CvTextArgument="Lakeland Toyota Inc" CvType="Text" DesignTimeRectangle="368, 405, 184, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='k-input-value-text' parentname='kendo-dropdownPrimaryLocation' tag='SPAN' type='' aaname='Lakeland Toyota Inc' check:innerText='Lakeland Toyota Inc' /&gt;" Guid="6a2ac9cc-1bfe-4d20-bdc7-76c3e64e7da0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="244f981305896938060797daf738d484.png" xmlns="">0icb4gQ0cskaEAfRzQyewww</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

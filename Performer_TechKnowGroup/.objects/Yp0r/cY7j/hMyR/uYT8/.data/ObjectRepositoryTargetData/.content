@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NCfW-rUARkSk20XA19a34A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="kpahrm.com/Person/Index/10883819" CVScreenId="9cd80591-8c55-4359-957d-3f727b9cd0ee" DesignTimeRectangle="409, 297, 1451, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl class='manage-employee-header-subtitle' parentid='kpa-content-wrapper' tag='DIV' /&gt;" Guid="156559e0-9fc3-4774-b87d-4fc54aafc905" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9cd80591-8c55-4359-957d-3f727b9cd0ee" CvTextArea="409, 230, 331, 42" CvTextArgument="Manage Employee" CvType="Text" DesignTimeRectangle="409, 217, 1451, 60" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Manage Employee' parentid='kpa-content-wrapper' tag='DIV' type='' class='' check:innerText='Manage Employee' /&gt;" Guid="006a4f58-b7b3-4b3d-9885-b8e7f61e7a2e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="469880f3a5a71c65785de04fa2f5abc6.png" xmlns="">018-ueBSxxU6y6Y4GVMkCeQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

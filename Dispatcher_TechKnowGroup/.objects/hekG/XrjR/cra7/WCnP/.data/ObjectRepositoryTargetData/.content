@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6FfQZDmKek-rThxgU2R4yA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="verasuite.com/employee/directory" CVScreenId="e69d7adf-fad9-4b21-88db-4e8297a4a097" CvElementArea="684, 477, 133, 50" CvType="InputBox" DesignTimeRectangle="794, 500, 16, 16" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl parentid='inpStatus' tag='KENDO-ICON' type='' class='k-i-caret-alt-down k-icon ng-star-inserted' aaname='' /&gt;" Guid="5e42b3bd-90e4-41d1-878e-d2b47931614e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e69d7adf-fad9-4b21-88db-4e8297a4a097" CvElementArea="684, 477, 133, 50" CvType="InputBox" DesignTimeRectangle="685, 490, 104, 36" FullSelectorArgument="&lt;webctrl parentid='inpStatus' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='inpStatus' tag='SPAN' type='' class='k-input-inner' aaname='' check:innerText='Active' /&gt;" Guid="24417fd6-eb52-42c4-b346-84c5266561c6" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a82fe50b3a10e76169d119a215b2f05f.png" xmlns="">0jucQvsADW0uhiIbzMY9IAA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

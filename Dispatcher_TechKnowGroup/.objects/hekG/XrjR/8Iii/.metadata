@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome KPA Platform",
+  "Type": "Screen",
+  "Id": "8Iiikw4eXECSqCIS32VYYg",
+  "Reference": "cZuNR9KNcE-8z0-D-TBWwQ/8Iiikw4eXECSqCIS32VYYg",
+  "ParentRef": "cZuNR9KNcE-8z0-D-TBWwQ/XrjRmRo3106nrw14u5OVVg",
+  "Created": "2025-03-12T05:54:07.1163078Z",
+  "Updated": "2025-03-12T05:54:07.1163078Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome KPA Platform - Google Chrome",
+  "Type": "App",
+  "Id": "Yp0rZbxnJUW0jY7DXuI9Qg",
+  "Reference": "7_4FWEJ9i06MoqUPbuk8kw/Yp0rZbxnJUW0jY7DXuI9Qg",
+  "Created": "2025-03-24T09:15:31.8059398Z",
+  "Updated": "2025-03-24T09:15:31.8059398Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

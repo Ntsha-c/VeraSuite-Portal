@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="h7Krb48e_0CYtcMgOVmZqA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cloud.uipath.com/natashaauxiliobits/DefaultTenant/orchestrator_/queues" CVScreenId="561af7ec-ac0d-4fd7-b75b-085ab1c592bb" CvTextArea="344, 247, 160, 28" CvTextArgument="Dashboard" CvType="Text" DesignTimeRectangle="344, 241, 959, 43" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='' aaname='Dashboard' check:innerText='Dashboard' /&gt;" Guid="098e22be-964f-4f6c-86fa-7a8d9c6f882a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="561af7ec-ac0d-4fd7-b75b-085ab1c592bb" CvTextArea="73, 167, 74, 14" CvTextArgument="Dashboard" CvType="Text" DesignTimeRectangle="74, 158, 182, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='CN_Platform_dashboard_placeholder' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='CN_Platform_dashboard_placeholder' tag='SPAN' type='' class='mat-tree-node-text-line' aaname='Dashboard' check:innerText='Dashboard' /&gt;" Guid="e9efe091-0085-4e15-abe8-53f5fb0adc25" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="714b77f6f55968266ad0c6aff61852c7.png" xmlns="">0teLFDaAyUkupCAYep45IKg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

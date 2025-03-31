@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bIxMV1Gl2UOeBXMn9nql5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="verasuite.com/dashboard" CVScreenId="aa819d3d-9b43-4548-8981-b3bff3886856" CvElementArea="225, 408, 22, 18" CvType="ArrowButton" DesignTimeRectangle="229, 409, 14, 14" DesignTimeScaleFactor="1" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl parentid='CN_Employee_Management_anchor_toggle' tag='svg' type='' class='svg-inline--fa fa-chevron-down' aaname='' /&gt;" Guid="80964287-4d45-423a-a3d7-9af0ef5308d5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KPA Platform' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="aa819d3d-9b43-4548-8981-b3bff3886856" CvTextArea="73, 407, 132, 17" CvTextArgument="Employee Manage..." CvType="Text" DesignTimeRectangle="24, 399, 192, 40" FullSelectorArgument="&lt;webctrl id='CN_Employee_Management_anchor' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='CN_Employee_Management_anchor' tag='A' type='' class='ng-star-inserted' aaname='' /&gt;" Guid="5044adad-84b9-4ee3-af5f-5b62358264eb" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="65d7b6a4aee7e83138b6e3dd085cf6ad.png" xmlns="">0T_LqutKi9E6CGIwUpMpf_Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
